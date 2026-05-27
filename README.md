@@ -8,27 +8,49 @@ Frontend: Bootstrap 5, DataTables, jQuery
 Server: XAMPP (Apache + MySQL)
 
 Struktur Folder
+
 konserkita/
+
 ├── admin/
+
 │   ├── dashboard.php       # Panel admin (kelola konser, tiket, pengguna)
+
 │   └── handler.php         # Handler AJAX untuk operasi CRUD
+
 ├── auth/
+
 │   ├── login.php           # Halaman login + math captcha
+
 │   ├── register.php        # Halaman registrasi + math captcha
+
 │   └── logout.php          # Proses logout
+
 ├── includes/
+
 │   ├── db.php              # Koneksi database PDO
+
 │   └── navbar.php          # Komponen navbar global
+
 ├── pages/
+
 │   ├── kategori.php        # Halaman konser per kategori
+
 │   ├── pembayaran.php      # Form pembelian tiket
+
 │   ├── cekstatus.php       # Cek status tiket via kode booking
+
 │   └── panduan.php         # Panduan penggunaan
+
 ├── user/
+
 │   └── dashboard.php       # Dashboard pengguna
+
 ├── testing/
+
 │   └── testing.php         # Form pengujian black box
+
 ├── index.php               # Halaman utama
+
 └── konserkita.sql          # File database
 
 Cara Instalasi
